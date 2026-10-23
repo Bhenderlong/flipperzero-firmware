@@ -44,10 +44,10 @@ static DialogMessageButton about_screen_product(DialogsApp* dialogs, DialogMessa
 static DialogMessageButton about_screen_address(DialogsApp* dialogs, DialogMessage* message) {
     DialogMessageButton result;
 
-    const char* screen_text = "Flipper Devices Inc.\n"
-                              "Suite B #551, 2803\n"
-                              "Philadelphia Pike, Claymont\n"
-                              "DE, USA 19703\n";
+    const char* screen_text = "Magpie Labs\n"
+                              "[company address\n"
+                              "placeholder set\n"
+                              "before release]\n";
 
     dialog_message_set_text(message, screen_text, 0, 0, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
